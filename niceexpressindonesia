@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nice Express - Ekspedisi Internasional</title>
+  <style>
+    :root {
+      --red-primary: #C2121F;
+      --dark-blue: #002F47;
+      --sky-blue: #669BBD;
+      --cream: #FEF0D5;
+      --dark-red: #780001;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--cream);
+      color: var(--dark-blue);
+    }
+
+    header {
+      background-color: var(--red-primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: var(--sky-blue);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      padding: 3rem 2rem;
+      background-color: white;
+    }
+
+    .feature-box {
+      background-color: var(--cream);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      background-color: var(--dark-red);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nice Express</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#pricelist">Ongkir</a>
+      <a href="#howto">Cara Kirim</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Kirim Barang ke Luar Negeri?</h2>
+    <p>Dengan Nice Express, kirim ke mana saja jadi lebih mudah dan aman. Korea, Jepang, Dubai, sampai seluruh dunia!</p>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>Layanan Ekspor</h3>
+      <p>Kirim dari Indonesia ke luar negeri dengan aman dan cepat.</p>
+    </div>
+    <div class="feature-box">
+      <h3>3 Pilihan Ekspedisi</h3>
+      <p>Pilih sesuai kebutuhanmu: DHL, FedEx, atau UPS.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Proses Mudah</h3>
+      <p>Cukup isi form dan kami akan bantu pickup & kirimkan barangmu.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Nice Express Indonesia. All rights reserved.
+  </footer>
+</body>
+</html>
